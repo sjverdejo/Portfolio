@@ -1,9 +1,11 @@
-import Navigation from './Navigation'
+import '../../assets/styles/Header.css'
+import me from '../../assets/images/me.png'
 
 function Header() {
     return (
         <div>
-            <Navigation />
+            <img className='headerImg' src={me} alt='pic of me' />
+            <p>Hi, my name is Sam Verdejo! Welcome to my site!</p>
         </div>
     )
 }

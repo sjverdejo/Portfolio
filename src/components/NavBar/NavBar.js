@@ -1,4 +1,4 @@
-import '../../assets/styles/Navigation.css'
+import '../../assets/styles/NavBar.css'
 import NavLink from './NavLink'
 import gh from '../../assets/images/github.png'
 import li from '../../assets/images/linkedin.png'
