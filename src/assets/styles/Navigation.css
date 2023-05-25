@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.top_left {
+    display: flex;
+    column-gap: 10px;
+    padding-left: 30px;
+}
+
+.top_right {
+    display: flex;
+    column-gap: 30px;
+    padding-right: 30px;
+}
