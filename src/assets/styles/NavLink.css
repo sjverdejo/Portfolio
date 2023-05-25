@@ -1,0 +1,11 @@
+.textLink {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+.imgLink {
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+}
