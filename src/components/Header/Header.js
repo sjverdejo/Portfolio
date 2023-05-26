@@ -3,9 +3,9 @@ import me from '../../assets/images/me.png'
 
 function Header() {
     return (
-        <div>
+        <div className='headerDiv'>
             <img className='headerImg' src={me} alt='pic of me' />
-            <p>Hi, my name is Sam Verdejo! Welcome to my site!</p>
+            <p>Hi, my name is Samuel Verdejo.</p>
         </div>
     )
 }

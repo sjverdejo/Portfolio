@@ -4,6 +4,11 @@
     font-size: 32px;
 }
 
+.textLink:hover {
+    background-color: white;
+    color: #1E1E1E;
+}
+
 .imgLink {
     border-radius: 8px;
     width: 75px;
