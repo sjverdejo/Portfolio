@@ -5,17 +5,17 @@ import li from '../../assets/images/linkedin.png'
 
 function Navigation() {
     return(
-        <div className='navbar'>
+        <nav className='navbar'>
             <div className='top_left'>
                 <NavLink isText={false} text='linkedin' link='http://github.com/sjverdejo' image={gh}/>
                 <NavLink isText={false} text='github' link='http://linkedin.com' image={li}/>
             </div>
             <div className='top_right'>
-                <NavLink isText={true} text='home' link=''/>
-                <NavLink isText={true} text='about me' link=''/>
-                <NavLink isText={true} text='my projects' link=''/>
+                <NavLink isText={true} text='home' link='/'/>
+                <NavLink isText={true} text='about me' link='about'/>
+                <NavLink isText={true} text='my projects' link='projects'/>
             </div>
-        </div>
+        </nav>
     )
 }
 
