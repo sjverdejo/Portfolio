@@ -1,5 +1,5 @@
-import '../../assets/styles/Header.css'
-import me from '../../assets/images/me.png'
+import '../assets/styles/Header.css'
+import me from '../assets/images/me.png'
 
 function Header() {
     return (
