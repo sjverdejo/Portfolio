@@ -3,8 +3,7 @@ import Header from '../components/Header'
 function Home() {
     return (
         <div>
-            <Header />
-            <a>Home</a>
+            <Header text='Hi, my name is Samuel Verdejo.' isMainHeader={true}/>
         </div>
     )
 }
