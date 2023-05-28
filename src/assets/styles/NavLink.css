@@ -2,6 +2,8 @@
     text-decoration: none;
     color: white;
     font-size: 32px;
+    margin: 1px;
+    padding: 10px;
 }
 
 .textLink:hover {

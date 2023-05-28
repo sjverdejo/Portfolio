@@ -4,6 +4,7 @@ import gh from '../../assets/images/github.png'
 import li from '../../assets/images/linkedin.png'
 
 function Navigation() {
+    
     return(
         <nav className='navbar'>
             <div className='top_left'>

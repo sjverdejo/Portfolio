@@ -3,16 +3,21 @@
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #232323;
+    top: 0;
+    padding-top: 20px;
 }
 
 .top_left {
     display: flex;
     column-gap: 10px;
-    padding-left: 30px;
+    padding-left: 2.5%;
 }
 
 .top_right {
     display: flex;
     column-gap: 30px;
-    padding-right: 30px;
+    padding-right: 5%;
 }
