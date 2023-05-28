@@ -10,7 +10,37 @@ function Projects() {
                 <div className='ems_proj'>
                     <ProjectContent 
                         title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, Tailwind'
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                    />
+                </div>
+                <div className='ems_proj'>
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                    />
+                </div>
+                <div className='ems_proj'>
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                    />
+                </div>
+                <div className='ems_proj'>
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                    />
+                </div>
+                <div className='ems_proj'>
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                    />
+                </div>
+                <div id='ems_proj1'>
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
                     />
                 </div>
             </div>

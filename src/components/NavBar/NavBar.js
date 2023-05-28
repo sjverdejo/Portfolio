@@ -14,7 +14,14 @@ function Navigation() {
             <div className='top_right'>
                 <NavLink isText={true} text='home' link='/'/>
                 <NavLink isText={true} text='about me' link='about'/>
-                <NavLink isText={true} text='my projects' link='projects'/>
+                <div className='dropdown'>
+                    <NavLink isText={true} text='my projects' link='projects'/>
+                    <div className='dropdownContent'>
+                    {/* Figure out link ot specific part of page */}
+                        <NavLink isText={true} text='project1' link='' />
+                        <NavLink isText={true} text='project2' link='' />
+                    </div>
+                </div>
             </div>
         </nav>
     )

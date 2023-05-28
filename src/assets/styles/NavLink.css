@@ -4,6 +4,7 @@
     font-size: 32px;
     margin: 1px;
     padding: 10px;
+    min-width: 100px;
 }
 
 .textLink:hover {
