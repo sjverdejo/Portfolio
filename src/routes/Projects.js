@@ -8,7 +8,10 @@ function Projects() {
             <Header text='projects' size={200}/>
             <div className='projects_Container'>
                 <div className='ems_proj'>
-                    <ProjectContent title='Employee Manager' description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, Tailwind' />
+                    <ProjectContent 
+                        title='Employee Manager' 
+                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, Tailwind'
+                    />
                 </div>
             </div>
         </div>

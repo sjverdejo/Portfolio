@@ -8,11 +8,13 @@ import App from './App'
 import Home from './routes/Home'
 import About from './routes/About'
 import Projects from './routes/Projects'
+import Error from './routes/Error'
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
+        errorElement: <Error />,
         children: [
             {
                 path: '',
