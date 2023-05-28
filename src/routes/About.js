@@ -1,4 +1,4 @@
-import '../assets/styles/About.css'
+import '../assets/styles/Container.css'
 import Header from '../components/Header'
 import AboutContent from '../components/AboutContent'
 
@@ -6,7 +6,7 @@ function About() {
     return (
         <div>
             <Header text={'about me'} isMainHeader={false} size={200}/> 
-            <div className='about_Container'>
+            <div className='Container'>
                 <h2>School</h2>
                 <AboutContent
                     text='Software Development and Network Engineering, Sheridan College, Oakville'

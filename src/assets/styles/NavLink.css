@@ -9,6 +9,7 @@
 .textLink:hover {
     background-color: white;
     color: #1E1E1E;
+    border-radius: 9px;
 }
 
 .imgLink {

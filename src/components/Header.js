@@ -9,7 +9,7 @@ function Header({text, isMainHeader, size}) {
                 <img className='headerImg' src={me} alt='me' width={size}/>
                 <div className='text'>
                     <p className='headerText'>{text}</p>
-                    <NavLink isText={true} text='click here to contact me.'/>
+                    <NavLink isText={true} text='click here to contact me.' link='/contact'/>
                 </div>
             </div>
         )

@@ -1,4 +1,4 @@
-import '../assets/styles/Projects.css'
+import '../assets/styles/Container.css'
 import Header from '../components/Header'
 import ProjectContent from '../components/ProjectContent'
 
@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div>
             <Header text='projects' size={200}/>
-            <div className='projects_Container'>
+            <div className='Container'>
                 <div className='ems_proj'>
                     <ProjectContent 
                         title='Employee Manager' 
