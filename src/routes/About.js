@@ -5,7 +5,7 @@ import AboutContent from '../components/AboutContent'
 function About() {
     return (
         <div>
-            <Header text={'about me'} isMainHeader={false}/> 
+            <Header text={'about me'} isMainHeader={false} size={200}/> 
             <div className='about_Container'>
                 <h2>School</h2>
                 <AboutContent
@@ -17,9 +17,16 @@ function About() {
 
                 <h2>Technical Skills</h2>
                 <AboutContent
-                    text='Java, HTML, CSS, JavaScript, PHP, Node, React, Express, PostgreSQL, Git, Jest'
+                    text='Java, Spring, HTML, CSS, JavaScript, PHP, Node, React, Express, PostgreSQL, Git, Jest, JUnit'
                 />
-                <hr/>
+                <hr />
+
+                <h2>Courses</h2>
+                <AboutContent
+                    text='Object Oriented Programming - Java, Enterprise Java Development, Web Development and Web Programming, Linux/UNIX - Operating Systems, 
+                    Cloud Enabled Networks, Database Design & Implementation, Computer & Network Security, Systems Development Methodologies'
+                />
+                <hr />
 
                 <h2>Work</h2>
                 <AboutContent

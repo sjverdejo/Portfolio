@@ -1,10 +1,10 @@
 .headerDiv {
     margin: auto;
     display: flex;
-    width: 45%;
-    column-gap: 10px;
+    width: 55%;
+    column-gap: 30px;
     align-items: center;
-    padding-top: 10%;
+    padding: 8%;
 }
 
 .subheaderDiv {
@@ -14,19 +14,15 @@
 }
 
 .headerImg {
-    width: 20em;
-    border: 1px solid black;
     border-radius: 50%;
-}
-
-.subheaderImg {
-    width: 10em;
-    border: 1px solid black;
-    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .headerText {
-    font-size: 45px;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .subheaderText {
@@ -34,3 +30,16 @@
     margin: 0;
     padding: 0;
 }
+
+.text .textLink {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.text .textLink:hover {
+    background-color: #232323;
+    color: white;
+}
+

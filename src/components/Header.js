@@ -1,18 +1,22 @@
 import '../assets/styles/Header.css'
 import me from '../assets/images/me.png'
+import NavLink from './NavBar/NavLink'
 
-function Header({text, isMainHeader}) {
+function Header({text, isMainHeader, size}) {
     if (isMainHeader) {
         return (
             <div className='headerDiv'>
-                <img className='headerImg' src={me} alt='me'/>
-                <p className='headerText'>{text}</p>
+                <img className='headerImg' src={me} alt='me' width={size}/>
+                <div className='text'>
+                    <p className='headerText'>{text}</p>
+                    <NavLink isText={true} text='click here to contact me.'/>
+                </div>
             </div>
         )
     } else {
         return (
             <div className='subheaderDiv'>
-                <img className='subheaderImg' src={me} alt='me'/>
+                <img className='headerImg' src={me} alt='me' width={size}/>
                 <p className='subheaderText'>{text}</p>
             </div>
         )
