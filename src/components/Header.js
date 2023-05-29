@@ -2,13 +2,14 @@ import '../assets/styles/Header.css'
 import me from '../assets/images/me.png'
 import NavLink from './NavBar/NavLink'
 
-function Header({text, isMainHeader, size}) {
+function Header({text, isMainHeader, size, colorText}) {
     if (isMainHeader) {
         return (
             <div className='headerDiv'>
                 <img className='headerImg' src={me} alt='me' width={size}/>
                 <div className='text'>
                     <p className='headerText'>{text}</p>
+                    <p className='colorText'>{colorText}</p>
                     <NavLink isText={true} text='click here to contact me.' link='/contact'/>
                 </div>
             </div>

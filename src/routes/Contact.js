@@ -17,6 +17,7 @@ function Contact() {
                         <input />
                         <label>Message: </label>
                         <input />
+                        <input type='submit' />
                     </form>
                 </div>
                 <h2>Let's work together!</h2>

@@ -5,6 +5,7 @@
     margin: 1px;
     padding: 10px;
     min-width: 100px;
+    text-align: center;
 }
 
 .textLink:hover {
