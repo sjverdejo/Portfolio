@@ -10,6 +10,7 @@ function Header({text, isMainHeader, size, colorText}) {
                 <div className='text'>
                     <p className='headerText'>{text}</p>
                     <p className='colorText'>{colorText}</p>
+                    <br></br>
                     <NavLink isText={true} text='click here to contact me.' link='/contact'/>
                 </div>
             </div>

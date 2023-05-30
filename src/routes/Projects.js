@@ -4,7 +4,7 @@ import ProjectContent from '../components/ProjectContent'
 
 function Projects() {
     return (
-        <div>
+        <div className='page_Container'>
             <Header text='projects' size={200}/>
             <div className='Container'>
                 <div className='ems_proj'>

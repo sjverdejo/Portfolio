@@ -4,7 +4,7 @@ import '../assets/styles/Contact.css'
 
 function Contact() {
     return (
-        <div>
+        <div className='page_Container'>
             <Header size={200} text='get in touch'/>
             <div className='Container'>
                 <div className='form'>

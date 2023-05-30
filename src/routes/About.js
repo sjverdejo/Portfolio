@@ -4,7 +4,7 @@ import AboutContent from '../components/AboutContent'
 
 function About() {
     return (
-        <div>
+        <div className='page_Container'>
             <Header text={'about me'} isMainHeader={false} size={200}/> 
             <div className='Container'>
                 <h2>School</h2>
