@@ -1,3 +1,14 @@
 .project {
     text-align: center;
 }
+
+.img {
+    width: 50%;
+}
+
+.gitLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+}

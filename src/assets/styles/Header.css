@@ -5,8 +5,9 @@
     column-gap: 30px;
     align-items: center;
     padding: 8%;
-    padding-top: 15%;
+    padding-top: 20%;
 }
+
 
 .subheaderDiv {
     text-align: center;
@@ -77,4 +78,33 @@ p {
   90% {color: #bdc3c7 }
   95% {color: #7f8c8d }
 }
+/* 
+@media screen and (max-width: 600px) {
+    .headerDiv {
+        /* text-align: center;
+        display: block;
+        width: 80%;
+        margin-top: 5vh; 
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        padding: 8%;
+        padding-top: 30vh;
+    }
 
+    .headerText {
+        font-size: 15px;
+    }
+
+    .headerImg {
+        width: 20vh;
+    }
+
+    .colorText {
+        font-size:15px;
+    }
+
+    .text .textLink {
+        font-size: 10px;
+    }
+} */

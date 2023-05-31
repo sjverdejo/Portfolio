@@ -7,6 +7,9 @@ function About() {
         <div className='page_Container'>
             <Header text={'about me'} isMainHeader={false} size={200}/> 
             <div className='Container'>
+                <h1>Me</h1>
+                My name is Sam, I am a student at Sheridan College. Currently in second year of the Software Development and Network Engineering program. 
+                <hr />
                 <h2>School</h2>
                 <AboutContent
                     text='Software Development and Network Engineering, Sheridan College, Oakville'

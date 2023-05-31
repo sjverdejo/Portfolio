@@ -1,6 +1,7 @@
 import '../assets/styles/Container.css'
 import Header from '../components/Header'
 import ProjectContent from '../components/ProjectContent'
+import img from '../assets/images/projects/portfolio.png'
 
 function Projects() {
     return (
@@ -9,38 +10,18 @@ function Projects() {
             <div className='Container'>
                 <div className='ems_proj'>
                     <ProjectContent 
-                        title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                        title='Portfolio Website' 
+                        images={img}
+                        description='Website for personal project created using React, CSS, React-Router v6, and framer motion'
+                        ghLink='https://github.com/sjverdejo/Portfolio'
                     />
-                </div>
-                <div className='ems_proj'>
+                    <hr />
+
                     <ProjectContent 
                         title='Employee Manager' 
+                        images={img}
                         description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
-                    />
-                </div>
-                <div className='ems_proj'>
-                    <ProjectContent 
-                        title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
-                    />
-                </div>
-                <div className='ems_proj'>
-                    <ProjectContent 
-                        title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
-                    />
-                </div>
-                <div className='ems_proj'>
-                    <ProjectContent 
-                        title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
-                    />
-                </div>
-                <div id='ems_proj1'>
-                    <ProjectContent 
-                        title='Employee Manager' 
-                        description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
+                        ghLink='https://github.com/sjverdejo/Employee-Management-System'
                     />
                 </div>
             </div>
