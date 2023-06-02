@@ -1,25 +1,14 @@
-import Header from '../components/Header'
 import '../assets/styles/Container.css'
 import '../assets/styles/Contact.css'
+import Header from '../components/Header'
+import Form from '../components/Form'
 
 function Contact() {
     return (
         <div className='page_Container'>
             <Header size={200} text='get in touch'/>
             <div className='Container'>
-                <div className='form'>
-                    <form>
-                        <label>Name: </label>
-                        <input />
-                        <label>Email: </label>
-                        <input />
-                        <label>Phone Number: </label>
-                        <input />
-                        <label>Message: </label>
-                        <input />
-                        <input type='submit' />
-                    </form>
-                </div>
+                <Form />
                 <h2>Let's work together!</h2>
             </div>
         </div>
