@@ -4,13 +4,14 @@ function Form() {
     return (
         <div className='form'>
             <form>  
-                <label>Name: </label>
-                <input />
-                <label>Email: </label>
-                <input />
-                <label>Message: </label>
-                <input />
-                <input type='submit' />
+                <label className='lbl'>Name: </label>
+                <input type='text' className='info' />
+                <label className='lbl'>Email: </label>
+                <input type='email' className='info' />
+                <label className='lbl'>Message: </label>
+                <textarea className='info' rows='4'/>
+                <br />
+                <input type='submit' value='Send me a message!' className='submit'/>
             </form>
         </div>
     )

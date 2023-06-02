@@ -21,3 +21,20 @@
         opacity: 1;
     }
 }
+
+.page_Container>.textLink {
+    color: white;
+    background-color: #232323;
+    border-radius: 9px;
+}
+
+.page_Container>.textLink:hover {
+    color: #232323;
+    background-color: white;
+}
+
+.cntr {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}

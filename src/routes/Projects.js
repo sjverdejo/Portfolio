@@ -2,11 +2,15 @@ import '../assets/styles/Container.css'
 import Header from '../components/Header'
 import ProjectContent from '../components/ProjectContent'
 import img from '../assets/images/projects/portfolio.png'
+import NavLink from '../components/NavBar/NavLink'
 
 function Projects() {
     return (
         <div className='page_Container'>
             <Header text='projects' size={200}/>
+            <div className='cntr'>
+                    <NavLink isText={true} text='click here to contact me.' link='/contact'/>
+            </div>
             <div className='Container'>
                 <div className='ems_proj'>
                     <ProjectContent 

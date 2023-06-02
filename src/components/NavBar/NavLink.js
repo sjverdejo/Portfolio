@@ -1,5 +1,6 @@
 import '../../assets/styles/NavLink.css'
 import { Link } from 'react-router-dom'
+
 function NavLink({image, text, link, isText}) {
     //if isText prop is true return text link, otherwise, return image link
     if (isText) {

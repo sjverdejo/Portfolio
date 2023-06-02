@@ -1,11 +1,15 @@
 import '../assets/styles/Container.css'
 import Header from '../components/Header'
 import AboutContent from '../components/AboutContent'
+import NavLink from '../components/NavBar/NavLink'
 
 function About() {
     return (
         <div className='page_Container'>
             <Header text={'about me'} isMainHeader={false} size={200}/> 
+            <div className='cntr'>
+                    <NavLink isText={true} text='click here to contact me.' link='/contact'/>
+            </div>
             <div className='Container'>
                 <h1>Me</h1>
                 My name is Sam, I am a student at Sheridan College. Currently in second year of the Software Development and Network Engineering program. 

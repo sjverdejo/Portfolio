@@ -9,7 +9,7 @@ function Contact() {
             <Header size={200} text='get in touch'/>
             <div className='Container'>
                 <Form />
-                <h2>Let's work together!</h2>
+                <h2 className='cntr_h2'>Let's work together!</h2>
             </div>
         </div>
     )
