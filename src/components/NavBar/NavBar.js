@@ -2,6 +2,7 @@ import '../../assets/styles/NavBar.css'
 import NavLink from './NavLink'
 import gh from '../../assets/images/github.png'
 import li from '../../assets/images/linkedin.png'
+import {HashLink} from 'react-router-hash-link'
 
 function Navigation() {
     
@@ -17,9 +18,9 @@ function Navigation() {
                 <div className='dropdown'>
                     <NavLink isText={true} text='my projects' link='projects'/>
                     <div className='dropdownContent'>
-                    {/* Figure out link ot specific part of page */}
-                        <NavLink isText={true} text='project1' link='' />
-                        <NavLink isText={true} text='project2' link='' />
+                        <HashLink smooth={true} className='textLink' to='/projects#portfolio'>Portfolio</HashLink>
+                        <HashLink smooth={true} className='textLink' to='/projects#taskme'>TaskME</HashLink>
+                        <HashLink smooth={true} className='textLink' to='/projects#ems'>Employee Manager</HashLink>
                     </div>
                 </div>
             </div>

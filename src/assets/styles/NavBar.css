@@ -31,13 +31,12 @@
     /* overflow: hidden; */
 }
 
-.dropdownContent .textLink {
+.dropdownContent>.textLink {
     float: none;
     color: white;
     display: block;
     font-size: 20px;
     text-align: right;
-    
 }
 
 .dropdownContent {

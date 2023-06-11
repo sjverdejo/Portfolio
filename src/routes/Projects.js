@@ -14,15 +14,16 @@ function Projects() {
             </div>
             <div className='Container'>
                 <div className='ems_proj'>
-                    <ProjectContent 
+                    <ProjectContent id='portfolio'
                         title='Portfolio Website' 
                         images={portfolio}
                         description='Website for personal project created using React, CSS, React-Router v6, and framer motion'
                         ghLink='https://github.com/sjverdejo/Portfolio'
                     />
                     <hr />
-
-                    <ProjectContent 
+                    
+                    
+                    <ProjectContent id='taskme'
                         title='TaskME' 
                         images={taskme}
                         description='A simple CRUD application for a user to track tasks to be completed and when to be completed by. Made using React, Express, Node, PostgreSQL, HTML, CSS.'
@@ -30,7 +31,7 @@ function Projects() {
                     />
                     <hr />
 
-                    <ProjectContent 
+                    <ProjectContent id='ems'
                         title='Employee Manager' 
                         images={portfolio}
                         description='An application to help employers manage their employees. Created using React, Express, PostgreSQL, Node, TailwindCSS'
