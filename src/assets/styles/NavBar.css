@@ -43,9 +43,12 @@
 .dropdownContent {
     display: none;
     position: absolute;
+    background-color:#232323;
     z-index: 1;
     margin-top:60px;
     min-width: 200px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 .dropdown:hover .dropdownContent {
